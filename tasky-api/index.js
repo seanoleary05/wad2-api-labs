@@ -44,7 +44,7 @@ app.use('/api/tasks', tasksRouter);
 //Users router
 app.use('/api/users', usersRouter);
 
-app.use('/api/tasks', authenticate, tasksRouter);
+app.use('/api/tasks', authenticate, tasksRouter); 
 
 
 app.use(errHandler);

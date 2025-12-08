@@ -179,4 +179,7 @@ db.flights.aggregate([{
     }
     
 }])
- 
+
+db.passengers.find(
+    {_id: {$in: ["P1","P2"]}}
+)
