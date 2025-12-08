@@ -1,11 +1,16 @@
 
 
 export const getTasks = async () => {
-    const  res = await fetch(
-        `http://localhost:8080/api/tasks`
+    const response = await fetch(
+        `http://localhost:8080/api/tasks`, {
+            headers: {
+                'Authorization': window.localStorage.getItem('token')
+            }
+        }
     )
-        return res.json();
+    return response.json();
 };
+
 
 export const addTask = async(data) => {
     const res = await fetch(
