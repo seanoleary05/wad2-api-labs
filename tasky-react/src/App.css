@@ -42,7 +42,6 @@ font-size: 1.2em;
 }
 
 button {
-<<<<<<< HEAD
 border: none;
 border-radius: 3px;
 font-style: italic;
@@ -95,60 +94,6 @@ form {
 text-align: left;
 width: 50%;
 margin: auto;
-=======
-  border: none;
-  border-radius: 3px;
-  font-style: italic;
-  font-size: 0.8em;
-  margin: 4px 6px;
-  width: 50px;
-  height: 25px;
-}
-
-.doneButton {
-  position: absolute;
-  bottom: 5px;
-  left: 5px;
-  color: green;
-}
-
-.deleteButton {
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
-  color: red;
-}
-
-input[type=text], input[type=date] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-form {
-  text-align: left;
-  width: 50%;
-  margin: auto;
->>>>>>> cee590c673fa80a9363b6df15cf4cda170c47526
 }
 
 .prio {
@@ -158,8 +103,44 @@ form {
   background-color: red;
   font-weight: bold;
   position: relative;
-<<<<<<< HEAD
 }
-=======
+
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4f4f4f;
+  padding: 0rem 2rem;
+  color: white;
 }
->>>>>>> cee590c673fa80a9363b6df15cf4cda170c47526
+
+.left-section {
+  display: flex;
+  align-items: baseline; /* Align children to baseline */
+  gap: 1.5rem;
+}
+
+.home-link {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.nav-links a:hover, .home-link:hover {
+  text-decoration: underline;
+}
+
